@@ -29,14 +29,16 @@ Usando le CSS media queries, trasforma il repo ‘html-responsive-wannabe’ in 
     height: 140px;
   }
 
-  /* #why .row{
-        border: 1px solid red;
-
-    width: 100vw;
-    font-size: 1em;
+  #why .row .first, #why .row .second, #why .row .third{
+    width: 90vw;
     display: flex;
     flex-flow: column wrap;
-  }  */
+    justify-items: center;
+    align-items: center;
+  }
+  #why img {
+    height: 120px;
+  }
 
 
 
