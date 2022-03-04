@@ -1,3 +1,11 @@
 /* Descrizione:
 Usando le CSS media queries, trasforma il repo ‘html-responsive-wannabe’ in una versione navigabile quando la larghezza dello schermo diventa < di 420px */
 
+@media screen and (max-width: 420px) {
+
+ #lezioni.container, #why.container {
+      background-color: #f2f1ce;
+  } /* questo funziona */
+
+
+}
